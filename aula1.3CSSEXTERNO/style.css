@@ -1,0 +1,46 @@
+body {
+    background-color: #1c1c1c; 
+    color: #4b2e8e;
+}
+
+h1 {
+    color: #6f2c91;
+}
+
+h2 {
+    color: #9b59b6;
+}
+
+strong {
+    color: #8e44ad;
+}
+
+em {
+    color: #5e3370;
+}
+
+mark {
+    background-color: #d5b1e0;
+    color: #4b2e8e;
+}
+
+blockquote {
+    color: #5e3370;
+}
+
+code {
+    background-color: #e3d4f2;
+}
+
+abbr {
+    text-decoration: underline dotted;
+}
+
+dt {
+    font-weight: bold;
+    color: #8e44ad;
+}
+
+dd {
+    color: #5e3370;
+}

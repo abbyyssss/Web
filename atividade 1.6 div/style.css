@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.caixa {
+    width: 400px;           /* largura da div */
+    height: 600px;          /* altura da div */
+    background-color: gray; /* cor de fundo */
+    border-radius: 50px;    /* bordas arredondadas */
+    position: relative;      /* para posicionar a logo */
+    padding: 20px;          /* espaçamento interno */
+    color: white;           /* cor do texto */
+}
+
+.titulo {
+    font-size: 24px;        /* tamanho do título */
+    margin-bottom: 10px;    /* espaçamento abaixo do título */
+}
+
+.subtitulo {
+    font-size: 18px;        /* tamanho do subtítulo */
+    margin: 5px 0;          /* espaçamento acima e abaixo do subtítulo */
+}
+
+.logo {
+    position: absolute;      /* para posicionar a logo */
+    bottom: 20px;           /* distância do fundo */
+    right: 20px;            /* distância da direita */
+    width: 50px;            /* largura da logo */
+    height: auto;           /* altura automática */
+}

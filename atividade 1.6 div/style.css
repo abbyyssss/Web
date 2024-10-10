@@ -9,10 +9,10 @@ body {
 
 .caixa {
     width: 400px;           /* largura da div */
-    height: 600px;          /* altura da div */
+    height: auto;           /* altura automática para se adaptar ao conteúdo */
     background-color: gray; /* cor de fundo */
     border-radius: 50px;    /* bordas arredondadas */
-    position: relative;      /* para posicionar a logo */
+    position: relative;      /* para posicionar as logos */
     padding: 20px;          /* espaçamento interno */
     color: white;           /* cor do texto */
 }
@@ -27,10 +27,19 @@ body {
     margin: 5px 0;          /* espaçamento acima e abaixo do subtítulo */
 }
 
+.texto {
+    margin-bottom: 10px;    /* margem entre os textos */
+}
+
+.logos {
+    display: flex;           /* para dispor as logos em linha */
+    justify-content: center; /* centraliza as logos */
+    margin-top: 20px;       /* espaçamento acima das logos */
+}
+
 .logo {
-    position: absolute;      /* para posicionar a logo */
-    bottom: 20px;           /* distância do fundo */
-    right: 20px;            /* distância da direita */
     width: 50px;            /* largura da logo */
     height: auto;           /* altura automática */
+    border-radius: 50%;     /* bordas arredondadas */
+    margin: 0 10px;         /* espaçamento horizontal entre as logos */
 }

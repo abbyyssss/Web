@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            background-color: #fff;
+        
+        }
+        td {
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            border: 1px solid #333;
+        }
+        .display {
+            background-color: #333;
+            color: #fff;
+            font-size: 36px;
+            padding: 20px;
+            text-align: right;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 280px;
+            margin: 20px;
+        }
+        .operador {
+            background-color: #ff9500;
+            color: white;
+        }
+        .operador:hover {
+            background-color: #ff7f00;
+        }
+        .igual {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .igual:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <table>
+        <tr>
+            <td colspan="4" class="display">0</td>
+        </tr>
+
+        
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td class="operador">/</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td class="operador">*</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td class="operador">-</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>.</td>
+            <td class="igual">=</td>
+            <td class="operador">+</td>
+        </tr>
+    </table>
+
+</body>
+</html>

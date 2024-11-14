@@ -1,0 +1,276 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebe8df; 
+    color: #4F4F4F; 
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e2c2c; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Subtítulo no cabeçalho */
+.subheader {
+    font-size: 1.1rem;
+    color: #a5a5a5;
+}
+
+/* Navegação */
+nav {
+    background-color: #6C4F47; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #9B7D72; 
+    border-radius: 5px;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Seção de Introdução */
+#introducao {
+    margin-bottom: 40px;
+}
+
+.intro-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro-image img {
+    width: 100%;  /* Ajusta a largura para 100% da área disponível */
+    max-width: 900px; /* Limita a largura máxima da imagem */
+    height: auto;
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente */
+    display: block;  /* Faz com que a imagem se comporte como um bloco */
+    border-radius: 10px; /* Se quiser arredondar as bordas das imagens */
+}
+
+/* Seção de Posts Recentes */
+#blog {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #6C4F47; 
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    color: #4F4F4F; 
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #6C4F47; 
+}
+
+.post-preview {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center; /* Centraliza o conteúdo da pré-visualização */
+}
+
+.post-preview img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto;  /* Centraliza a miniatura */
+}
+
+.post-text {
+    flex: 1;
+}
+
+.post-text h3 a {
+    font-size: 1.2rem;
+    color: #6C4F47;
+    text-decoration: none;
+}
+
+.post-text h3 a:hover {
+    text-decoration: underline;
+}
+
+.post-text p {
+    color: #7D7D7D;
+}
+
+/* Seção de Destaque */
+#destaque {
+    margin-bottom: 40px;
+}
+
+.destaque-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.destaque-image img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block; /* Faz o botão se comportar como um bloco */
+    background-color: #6C4F47;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #9B7D72;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6C4F47; 
+    color: white;
+    font-size: 1rem;
+}
+
+/* Formatação do Formulário */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    background-color: #F1F1F1; 
+}
+
+form button {
+    background-color: #8E8A8A; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #6C4F47; 
+}
+
+/* Centralização do conteúdo geral */
+#sobre-joao {
+    margin-bottom: 40px; 
+}
+
+.sobre-imagem {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.imagem-autor {
+    max-width: 500px; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    border: 3px solid #6C4F47; 
+    object-fit: cover;
+    margin-top: 20px; 
+}
+
+
+/* Centralização do conteúdo do texto */
+#sobre-joao p, #sobre-joao ul {
+    text-align: center; 
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+
+    .imagem-autor {
+        max-width: 200px; 
+    }
+}

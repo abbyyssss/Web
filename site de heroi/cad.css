@@ -1,0 +1,105 @@
+/* Reset básico para remover margens e bordas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h2 {
+    text-align: center;
+    color: #e50914; /* Cor vermelha como no original */
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os grupos de input */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group select, .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.input-group input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Estilo para os botões de envio */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group input[type="submit"], .button-group input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group input[type="submit"] {
+    background-color: #e50914; /* Cor vermelha como no original */
+    color: #fff;
+}
+
+.button-group input[type="submit"]:hover {
+    background-color: #d40e12;
+}
+
+.button-group input[type="reset"] {
+    background-color: #ccc;
+}
+
+.button-group input[type="reset"]:hover {
+    background-color: #bbb;
+}

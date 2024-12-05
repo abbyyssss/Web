@@ -8,13 +8,13 @@
 /* Corpo do site */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ebe8df; 
-    color: #4F4F4F; 
+    background-color: #ebe8df;
+    color: #4F4F4F;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #2e2c2c; 
+    background-color: #2e2c2c;
     color: white;
     padding: 20px;
     text-align: center;
@@ -37,7 +37,7 @@ header p {
 
 /* Navegação */
 nav {
-    background-color: #6C4F47; 
+    background-color: #6C4F47;
     padding: 10px;
     text-align: center;
 }
@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #9B7D72; 
+    background-color: #9B7D72;
     border-radius: 5px;
 }
 
@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 .intro-image img {
     width: 100%;  /* Ajusta a largura para 100% da área disponível */
-    max-width: 900px; /* Limita a largura máxima da imagem */
+    max-width: 1250px; /* Limita a largura máxima da imagem */
     height: auto;
     margin: 0 auto;  /* Centraliza a imagem horizontalmente */
     display: block;  /* Faz com que a imagem se comporte como um bloco */
@@ -98,7 +98,7 @@ nav ul li a:hover {
 h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #6C4F47; 
+    color: #6C4F47;
 }
 
 ul {
@@ -111,13 +111,13 @@ ul li {
 }
 
 ul li a {
-    color: #4F4F4F; 
+    color: #4F4F4F;
     text-decoration: none;
 }
 
 ul li a:hover {
     text-decoration: underline;
-    color: #6C4F47; 
+    color: #6C4F47;
 }
 
 .post-preview {
@@ -166,7 +166,7 @@ ul li a:hover {
 
 .destaque-image img {
     width: 100%;
-    max-width: 900px;
+    max-width: 1250px;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -174,7 +174,7 @@ ul li a:hover {
 }
 
 .cta-button {
-    display: inline-block; /* Faz o botão se comportar como um bloco */
+    display: inline-block;
     background-color: #6C4F47;
     color: white;
     padding: 10px 20px;
@@ -193,7 +193,7 @@ ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #6C4F47; 
+    background-color: #6C4F47;
     color: white;
     font-size: 1rem;
 }
@@ -205,52 +205,96 @@ form input, form textarea {
     margin-bottom: 10px;
     border: 1px solid #DDD;
     border-radius: 5px;
-    background-color: #F1F1F1; 
+    background-color: #F1F1F1;
 }
 
 form button {
-    background-color: #8E8A8A; 
+    background-color: #8E8A8A;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 form button:hover {
-    background-color: #6C4F47; 
+    background-color: #6C4F47;
 }
 
 /* Centralização do conteúdo geral */
 #sobre-joao {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .sobre-imagem {
-    text-align: center; 
-    margin-bottom: 20px; 
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .imagem-autor {
-    max-width: 500px; 
-    width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    border: 3px solid #6C4F47; 
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #6C4F47;
     object-fit: cover;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
-
 
 /* Centralização do conteúdo do texto */
 #sobre-joao p, #sobre-joao ul {
-    text-align: center; 
+    text-align: center;
+}
+
+/* Estilo do Banner */
+#banner {
+    background-color: #f5f5f5;
+    padding: 15px 15px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px; /* Espaçamento entre o banner e o conteúdo seguinte */
+}
+
+#banner .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#banner h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#banner p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#banner .cta-button {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#banner .cta-button:hover {
+    background-color: #ff6347;
+}
+
+#banner .imagem-banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
 }
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
     .container {
-        width: 90%; 
+        width: 90%;
     }
 
     header h1 {
@@ -271,6 +315,18 @@ form button:hover {
     }
 
     .imagem-autor {
-        max-width: 200px; 
+        max-width: 200px;
+    }
+
+    #banner h2 {
+        font-size: 2rem;
+    }
+
+    #banner p {
+        font-size: 1rem;
+    }
+
+    #banner .imagem-banner {
+        max-height: 300px;
     }
 }

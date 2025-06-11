@@ -8,38 +8,38 @@ body {
 }
 
 .caixa {
-    width: 400px;           /* largura da div */
-    height: auto;           /* altura automática para se adaptar ao conteúdo */
-    background-color: gray; /* cor de fundo */
-    border-radius: 50px;    /* bordas arredondadas */
-    padding: 20px;          /* espaçamento interno */
-    color: white;           /* cor do texto */
+    width: 400px;          
+    height: auto;           
+    background-color: gray; 
+    border-radius: 50px;    
+    padding: 20px;         
+    color: white;         
 }
 
 .titulo {
-    font-size: 24px;        /* tamanho do título */
-    margin-bottom: 10px;    /* espaçamento abaixo do título */
+    font-size: 24px;        
+    margin-bottom: 10px;    
 }
 
 .subtitulo {
-    font-size: 18px;        /* tamanho do subtítulo */
-    margin: 5px 0;          /* espaçamento acima e abaixo do subtítulo */
+    font-size: 18px;        
+    margin: 5px 0;          
 }
 
 .texto {
-    margin-bottom: 10px;    /* margem entre os textos */
+    margin-bottom: 10px;   
 }
 
 .logos {
-    display: flex;           /* para dispor as logos em linha */
-    justify-content: center; /* centraliza as logos */
-    margin-top: 20px;       /* espaçamento acima das logos */
+    display: flex;           
+    justify-content: center; 
+    margin-top: 20px;       
 }
 
 .logo {
-    width: 50px;            /* largura da logo */
-    height: auto;           /* altura automática */
-    border-radius: 50%;     /* bordas arredondadas */
-    margin: 0 10px;         /* espaçamento horizontal entre as logos */
+    width: 50px;           
+    height: auto;         
+    border-radius: 50%;     
+    margin: 0 10px;       
 }
 
